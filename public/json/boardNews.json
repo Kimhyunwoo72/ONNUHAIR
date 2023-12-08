@@ -1,0 +1,224 @@
+{
+    "newsData": [
+        {
+            "id": 5,
+            "image": "/image/news/news5.png",
+            "imageView": "/image/news/news5-1.png",
+            "title": "Review Event",
+            "writer": "ONNU",
+            "date": "2023-05-01",
+            "desc": "리뷰를 남기시면 할인되는 이벤트를 진행합니다.",
+            "info": "안녕하세요. ONNU입니다. <br> 리뷰를 남기시면 할인 이벤트가 운영되오니 고객님들의 많은 참여 부탁 드립니다.<br><em>기간 - </em>2023-05-01 ~ 공지 시까지 <br>",
+            "show": true
+        },
+        {
+            "id": 4,
+            "image": "/image/news/news4.png",
+            "imageView": "/image/news/news4-1.png",
+            "title": "첫 방문 Event",
+            "writer": "ONNU",
+            "date": "2023-05-01",
+            "desc": "첫 방문 시 펌 또는 염색 시술 20% 할인되는 이벤트를 진행합니다.",
+            "info": "안녕하세요. ONNU입니다. <br>첫 방문 했을 때 1회만 가능한 이벤트로 운영되오니 고객님들의 많은 참여 부탁 드립니다.<br><em>기간 - </em>2023-05-01 ~ 공지 시까지 <br><em>혜택 - </em>첫 방문 시 펌 또는 염색 시술 20% 할인 <br>",
+            "show": true
+        },
+        {
+            "id": 3,
+            "image": "/image/news/news3.png",
+            "imageView": "/image/news/news3-1.png",
+            "title": "펌 or 염색 + 클리닉 20%할인",
+            "writer": "ONNU",
+            "date": "2023-04-01",
+            "desc": "펌 or 염색 + 클리닉 20%할인 이벤트를 진행합니다.",
+            "info": "안녕하세요. ONNU입니다. <br>펌이나 염색을 클리닉과 함께하면 추가할인 이벤트가 운영되오니 고객님들의 많은 참여 부탁 드립니다.<br><em>기간 - </em>2023-04-01 ~ 공지 시까지 <br>",
+            "show": true
+        },
+        {
+            "id": 2,
+            "image": "/image/news/news-img01.png",
+            "imageView": "/image/news/open_event.png",
+            "title": "오픈기념행사",
+            "writer": "ONNU",
+            "date": "2023-04-01",
+            "desc": "오픈 축하 기간에만 만나볼 수 있는 특별한 이벤트!",
+            "info": "안녕하세요. ONNU입니다. <br> 오픈 축하 기간에만 만나볼 수 있는 특별한 이벤트! <br> 기간제로 운영되오니 고객님들의 많은 참여 부탁 드립니다.<br><em>기간 - </em>2022-11-14 ~ 2022-12-31<br>",
+            "show": false
+        },
+        {
+            "id": 1,
+            "image": "/image/news/news-img02.png",
+            "imageView": "/image/news/season_event.png",
+            "title": "시즌 프로모션",
+            "writer": "ONNU",
+            "date": "2023-04-01",
+            "desc": "가을&겨울 시즌제로 운영되오니 고객님들의 많은 참여 부탁 드립니다.",
+            "info": "안녕하세요. ONNU입니다. <br>가을&겨울 시즌제로 운영되오니 고객님들의 많은 참여 부탁 드립니다.<br><em>기간 - </em>2022-11-14 ~ 2023-02-28 <br>",
+            "show": false
+        },
+        {
+            "id": 5,
+            "image": "/image/news/news5.png",
+            "imageView": "/image/news/news5-1.png",
+            "title": "Review Event",
+            "writer": "ONNU",
+            "date": "2023-05-01",
+            "desc": "리뷰를 남기시면 할인되는 이벤트를 진행합니다.",
+            "info": "안녕하세요. ONNU입니다. <br> 리뷰를 남기시면 할인 이벤트가 운영되오니 고객님들의 많은 참여 부탁 드립니다.<br><em>기간 - </em>2023-05-01 ~ 공지 시까지 <br>",
+            "show": true
+        },
+        {
+            "id": 4,
+            "image": "/image/news/news4.png",
+            "imageView": "/image/news/news4-1.png",
+            "title": "첫 방문 Event",
+            "writer": "ONNU",
+            "date": "2023-05-01",
+            "desc": "첫 방문 시 펌 또는 염색 시술 20% 할인되는 이벤트를 진행합니다.",
+            "info": "안녕하세요. ONNU입니다. <br>첫 방문 했을 때 1회만 가능한 이벤트로 운영되오니 고객님들의 많은 참여 부탁 드립니다.<br><em>기간 - </em>2023-05-01 ~ 공지 시까지 <br><em>혜택 - </em>첫 방문 시 펌 또는 염색 시술 20% 할인 <br>",
+            "show": true
+        },
+        {
+            "id": 3,
+            "image": "/image/news/news3.png",
+            "imageView": "/image/news/news3-1.png",
+            "title": "펌 or 염색 + 클리닉 20%할인",
+            "writer": "ONNU",
+            "date": "2023-04-01",
+            "desc": "펌 or 염색 + 클리닉 20%할인 이벤트를 진행합니다.",
+            "info": "안녕하세요. ONNU입니다. <br>펌이나 염색을 클리닉과 함께하면 추가할인 이벤트가 운영되오니 고객님들의 많은 참여 부탁 드립니다.<br><em>기간 - </em>2023-04-01 ~ 공지 시까지 <br>",
+            "show": true
+        },
+        {
+            "id": 2,
+            "image": "/image/news/news-img01.png",
+            "imageView": "/image/news/open_event.png",
+            "title": "오픈기념행사",
+            "writer": "ONNU",
+            "date": "2023-04-01",
+            "desc": "오픈 축하 기간에만 만나볼 수 있는 특별한 이벤트!",
+            "info": "안녕하세요. ONNU입니다. <br> 오픈 축하 기간에만 만나볼 수 있는 특별한 이벤트! <br> 기간제로 운영되오니 고객님들의 많은 참여 부탁 드립니다.<br><em>기간 - </em>2022-11-14 ~ 2022-12-31<br>",
+            "show": false
+        },
+        {
+            "id": 1,
+            "image": "/image/news/news-img02.png",
+            "imageView": "/image/news/season_event.png",
+            "title": "시즌 프로모션",
+            "writer": "ONNU",
+            "date": "2023-04-01",
+            "desc": "가을&겨울 시즌제로 운영되오니 고객님들의 많은 참여 부탁 드립니다.",
+            "info": "안녕하세요. ONNU입니다. <br>가을&겨울 시즌제로 운영되오니 고객님들의 많은 참여 부탁 드립니다.<br><em>기간 - </em>2022-11-14 ~ 2023-02-28 <br>",
+            "show": false
+        },
+        {
+            "id": 5,
+            "image": "/image/news/news5.png",
+            "imageView": "/image/news/news5-1.png",
+            "title": "Review Event",
+            "writer": "ONNU",
+            "date": "2023-05-01",
+            "desc": "리뷰를 남기시면 할인되는 이벤트를 진행합니다.",
+            "info": "안녕하세요. ONNU입니다. <br> 리뷰를 남기시면 할인 이벤트가 운영되오니 고객님들의 많은 참여 부탁 드립니다.<br><em>기간 - </em>2023-05-01 ~ 공지 시까지 <br>",
+            "show": true
+        },
+        {
+            "id": 4,
+            "image": "/image/news/news4.png",
+            "imageView": "/image/news/news4-1.png",
+            "title": "첫 방문 Event",
+            "writer": "ONNU",
+            "date": "2023-05-01",
+            "desc": "첫 방문 시 펌 또는 염색 시술 20% 할인되는 이벤트를 진행합니다.",
+            "info": "안녕하세요. ONNU입니다. <br>첫 방문 했을 때 1회만 가능한 이벤트로 운영되오니 고객님들의 많은 참여 부탁 드립니다.<br><em>기간 - </em>2023-05-01 ~ 공지 시까지 <br><em>혜택 - </em>첫 방문 시 펌 또는 염색 시술 20% 할인 <br>",
+            "show": true
+        },
+        {
+            "id": 3,
+            "image": "/image/news/news3.png",
+            "imageView": "/image/news/news3-1.png",
+            "title": "펌 or 염색 + 클리닉 20%할인",
+            "writer": "ONNU",
+            "date": "2023-04-01",
+            "desc": "펌 or 염색 + 클리닉 20%할인 이벤트를 진행합니다.",
+            "info": "안녕하세요. ONNU입니다. <br>펌이나 염색을 클리닉과 함께하면 추가할인 이벤트가 운영되오니 고객님들의 많은 참여 부탁 드립니다.<br><em>기간 - </em>2023-04-01 ~ 공지 시까지 <br>",
+            "show": true
+        },
+        {
+            "id": 2,
+            "image": "/image/news/news-img01.png",
+            "imageView": "/image/news/open_event.png",
+            "title": "오픈기념행사",
+            "writer": "ONNU",
+            "date": "2023-04-01",
+            "desc": "오픈 축하 기간에만 만나볼 수 있는 특별한 이벤트!",
+            "info": "안녕하세요. ONNU입니다. <br> 오픈 축하 기간에만 만나볼 수 있는 특별한 이벤트! <br> 기간제로 운영되오니 고객님들의 많은 참여 부탁 드립니다.<br><em>기간 - </em>2022-11-14 ~ 2022-12-31<br>",
+            "show": false
+        },
+        {
+            "id": 1,
+            "image": "/image/news/news-img02.png",
+            "imageView": "/image/news/season_event.png",
+            "title": "시즌 프로모션",
+            "writer": "ONNU",
+            "date": "2023-04-01",
+            "desc": "가을&겨울 시즌제로 운영되오니 고객님들의 많은 참여 부탁 드립니다.",
+            "info": "안녕하세요. ONNU입니다. <br>가을&겨울 시즌제로 운영되오니 고객님들의 많은 참여 부탁 드립니다.<br><em>기간 - </em>2022-11-14 ~ 2023-02-28 <br>",
+            "show": false
+        },
+        {
+            "id": 5,
+            "image": "/image/news/news5.png",
+            "imageView": "/image/news/news5-1.png",
+            "title": "Review Event",
+            "writer": "ONNU",
+            "date": "2023-05-01",
+            "desc": "리뷰를 남기시면 할인되는 이벤트를 진행합니다.",
+            "info": "안녕하세요. ONNU입니다. <br> 리뷰를 남기시면 할인 이벤트가 운영되오니 고객님들의 많은 참여 부탁 드립니다.<br><em>기간 - </em>2023-05-01 ~ 공지 시까지 <br>",
+            "show": true
+        },
+        {
+            "id": 4,
+            "image": "/image/news/news4.png",
+            "imageView": "/image/news/news4-1.png",
+            "title": "첫 방문 Event",
+            "writer": "ONNU",
+            "date": "2023-05-01",
+            "desc": "첫 방문 시 펌 또는 염색 시술 20% 할인되는 이벤트를 진행합니다.",
+            "info": "안녕하세요. ONNU입니다. <br>첫 방문 했을 때 1회만 가능한 이벤트로 운영되오니 고객님들의 많은 참여 부탁 드립니다.<br><em>기간 - </em>2023-05-01 ~ 공지 시까지 <br><em>혜택 - </em>첫 방문 시 펌 또는 염색 시술 20% 할인 <br>",
+            "show": true
+        },
+        {
+            "id": 3,
+            "image": "/image/news/news3.png",
+            "imageView": "/image/news/news3-1.png",
+            "title": "펌 or 염색 + 클리닉 20%할인",
+            "writer": "ONNU",
+            "date": "2023-04-01",
+            "desc": "펌 or 염색 + 클리닉 20%할인 이벤트를 진행합니다.",
+            "info": "안녕하세요. ONNU입니다. <br>펌이나 염색을 클리닉과 함께하면 추가할인 이벤트가 운영되오니 고객님들의 많은 참여 부탁 드립니다.<br><em>기간 - </em>2023-04-01 ~ 공지 시까지 <br>",
+            "show": true
+        },
+        {
+            "id": 2,
+            "image": "/image/news/news-img01.png",
+            "imageView": "/image/news/open_event.png",
+            "title": "오픈기념행사",
+            "writer": "ONNU",
+            "date": "2023-04-01",
+            "desc": "오픈 축하 기간에만 만나볼 수 있는 특별한 이벤트!",
+            "info": "안녕하세요. ONNU입니다. <br> 오픈 축하 기간에만 만나볼 수 있는 특별한 이벤트! <br> 기간제로 운영되오니 고객님들의 많은 참여 부탁 드립니다.<br><em>기간 - </em>2022-11-14 ~ 2022-12-31<br>",
+            "show": false
+        },
+        {
+            "id": 1,
+            "image": "/image/news/news-img02.png",
+            "imageView": "/image/news/season_event.png",
+            "title": "시즌 프로모션",
+            "writer": "ONNU",
+            "date": "2023-04-01",
+            "desc": "가을&겨울 시즌제로 운영되오니 고객님들의 많은 참여 부탁 드립니다.",
+            "info": "안녕하세요. ONNU입니다. <br>가을&겨울 시즌제로 운영되오니 고객님들의 많은 참여 부탁 드립니다.<br><em>기간 - </em>2022-11-14 ~ 2023-02-28 <br>",
+            "show": false
+        }
+    ]
+}
