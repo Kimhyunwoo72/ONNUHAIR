@@ -30,17 +30,17 @@ function Footer() {
                     </ul>
                     <ul className='footer__address-list'>
                         <li className='footer__address-item'>
-                            <a href='javascript:;' className='footer__address-link'>
+                            <a href='' className='footer__address-link'>
                                 서울시 관악구 쑥고개로123번지 1층 온앤유{' '}
                             </a>
                         </li>
                         <li className='footer__address-item'>
-                            <a href='javascript:;' className='footer__address-link'>
+                            <a href='' className='footer__address-link'>
                                 ONNU 대표원장 정유경
                             </a>
                         </li>
                         <li className='footer__address-item'>
-                            <a href='javascript:;' className='footer__address-link'>
+                            <a href='' className='footer__address-link'>
                                 TEL 02-877-1101
                             </a>
                         </li>

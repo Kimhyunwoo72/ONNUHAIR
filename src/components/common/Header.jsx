@@ -74,7 +74,7 @@ function Header() {
                         </li>
                     </ul>
                 </nav>
-                <a href='javascript:;' className='log'>
+                <a href='' className='log'>
                     <span>
                         <span className='count-title'>로그아웃</span>
                         {logIn && <span>{seconds}초</span>}
