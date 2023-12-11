@@ -12,7 +12,7 @@ import Location from '../sub/Location';
 function Url() {
     return (
         <Routes>
-            <Route path='/' element={<Main />} />
+            <Route path='/ONNUHAIR' element={<Main />} />
             <Route path='/about' element={<About />} />
             <Route path='/shops' element={<Shops />} />
             <Route path='/boardcon' element={<BoardCon />} />
