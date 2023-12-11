@@ -1,9 +1,8 @@
 import React, { useEffect, useState } from 'react';
-import { Routes, Route, useLocation } from 'react-router-dom';
+import { useLocation } from 'react-router-dom';
 import axios from 'axios';
 import News from './News';
 import Notice from './Notice';
-import BoardView from '../boards/BoardView';
 
 function BoardCon() {
     const [data, setData] = useState([]);

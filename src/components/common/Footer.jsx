@@ -30,22 +30,22 @@ function Footer() {
                     </ul>
                     <ul className='footer__address-list'>
                         <li className='footer__address-item'>
-                            <a href='' className='footer__address-link'>
+                            <button type='button' className='footer__address-link'>
                                 서울시 관악구 쑥고개로123번지 1층 온앤유{' '}
-                            </a>
+                            </button>
                         </li>
                         <li className='footer__address-item'>
-                            <a href='' className='footer__address-link'>
+                            <button type='button' className='footer__address-link'>
                                 ONNU 대표원장 정유경
-                            </a>
+                            </button>
                         </li>
                         <li className='footer__address-item'>
-                            <a href='' className='footer__address-link'>
+                            <button type='button' className='footer__address-link'>
                                 TEL 02-877-1101
-                            </a>
+                            </button>
                         </li>
                         <li className='footer__address-item'>
-                            <a href='https://m.place.naver.com/hairshop/1124882560/home?entry=pll' className='footer__address-link' target='_blank'>
+                            <a href='https://m.place.naver.com/hairshop/1124882560/home?entry=pll' className='footer__address-link' target='_blank' rel='noreferrer'>
                                 예약 바로가기
                             </a>
                         </li>
@@ -55,13 +55,13 @@ function Footer() {
                     <ul className='footer__info-list'>
                         <li className='footer__info-item'>
                             <span className='footer__icon footer__icon-blog'></span>
-                            <a href='https://blog.naver.com/onnu_hair' className='footer__info-link' target='_blank'>
+                            <a href='https://blog.naver.com/onnu_hair' className='footer__info-link' target='_blank' rel='noreferrer'>
                                 블로그
                             </a>
                         </li>
                         <li className='footer__info-item'>
                             <span className='footer__icon footer__icon-instagram'></span>
-                            <a href='https://www.instagram.com/onnu__hair' className='footer__info-link' target='_blank'>
+                            <a href='https://www.instagram.com/onnu__hair' className='footer__info-link' target='_blank' rel='noreferrer'>
                                 Instagram
                             </a>
                         </li>

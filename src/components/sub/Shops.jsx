@@ -6,7 +6,7 @@ import shopImage5 from '../../resource/image/shop/shop07.jpg';
 import shopImage6 from '../../resource/image/shop/shop02.jpg';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/all';
-import React, { useEffect, useState } from 'react';
+import React, { useEffect } from 'react';
 
 function Shop() {
     useEffect(() => {

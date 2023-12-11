@@ -1,4 +1,4 @@
-import React, { useRef, useEffect } from 'react';
+import React, { useEffect } from 'react';
 
 import img1 from '../../resource/image/slider01.jpg';
 import img2 from '../../resource/image/slider02.jpg';
@@ -11,7 +11,7 @@ import img7 from '../../resource/image/slider07.jpg';
 import img8 from '../../resource/image/slider08.jpg';
 
 function MainCollection() {
-    const swiperRef = useRef(null);
+    // const swiperRef = useRef(null);
 
     useEffect(() => {}, []);
 
