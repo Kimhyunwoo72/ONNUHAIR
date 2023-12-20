@@ -18,7 +18,7 @@ function Footer() {
                             </Link>
                         </li>
                         <li className='footer__menu-item'>
-                            <Link to='/news' className='footer__menu-link'>
+                            <Link to='/boardcon/news' className='footer__menu-link'>
                                 news
                             </Link>
                         </li>
