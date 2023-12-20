@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useLocation } from 'react-router-dom';
 import axios from 'axios';
 import News from './News';
-import Notice from './Notice';
+// import Notice from './Notice';
 
 function BoardCon() {
     const [data, setData] = useState([]);
@@ -34,8 +34,8 @@ function BoardCon() {
 
     return (
         <>
-            {path === 'news' && <News activePage={activePage} itemsPerPage={itemsPerPage} data={data} setActivePage={setActivePage} currentItems={currentItems} />}
-            {path === 'notice' && <Notice activePage={activePage} itemsPerPage={itemsPerPage} data={data} setActivePage={setActivePage} currentItems={currentItems} />}
+            <News activePage={activePage} itemsPerPage={itemsPerPage} data={data} setActivePage={setActivePage} currentItems={currentItems} />
+            {/* {path === 'notice' && <Notice activePage={activePage} itemsPerPage={itemsPerPage} data={data} setActivePage={setActivePage} currentItems={currentItems} />} */}
         </>
     );
 }

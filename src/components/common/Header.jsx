@@ -6,37 +6,37 @@ function Header() {
     const [menuOpen, setMenuOpen] = useState(false);
     const [logTime, setLogTime] = useState(false);
 
-    useEffect(() => {
-        const inactivityTime = 10000; // 10초
-        let timer;
+    // useEffect(() => {
+    //     const inactivityTime = 10000; // 10초
+    //     let timer;
 
-        const resetTimer = () => {
-            clearTimeout(timer);
-            timer = setTimeout(logout, inactivityTime);
-        };
+    //     const resetTimer = () => {
+    //         clearTimeout(timer);
+    //         timer = setTimeout(logout, inactivityTime);
+    //     };
 
-        const logout = () => {
-            console.log('자동 로그아웃되었습니다.');
-            setLogTime(true);
-        };
+    //     const logout = () => {
+    //         console.log('자동 로그아웃되었습니다.');
+    //         setLogTime(true);
+    //     };
 
-        const activityDetected = () => {
-            resetTimer();
-            localStorage.setItem('lastActivityTime', Date.now());
-        };
+    //     const activityDetected = () => {
+    //         resetTimer();
+    //         localStorage.setItem('lastActivityTime', Date.now());
+    //     };
 
-        resetTimer();
-        localStorage.setItem('lastActivityTime', Date.now());
+    //     resetTimer();
+    //     localStorage.setItem('lastActivityTime', Date.now());
 
-        document.addEventListener('keypress', activityDetected);
-        document.addEventListener('scroll', activityDetected);
+    //     document.addEventListener('keypress', activityDetected);
+    //     document.addEventListener('scroll', activityDetected);
 
-        return () => {
-            document.removeEventListener('keypress', activityDetected);
-            document.removeEventListener('scroll', activityDetected);
-            clearTimeout(timer);
-        };
-    }, []);
+    //     return () => {
+    //         document.removeEventListener('keypress', activityDetected);
+    //         document.removeEventListener('scroll', activityDetected);
+    //         clearTimeout(timer);
+    //     };
+    // }, []);
 
     const toggleMenu = () => {
         setMenuOpen(!menuOpen);
@@ -68,12 +68,11 @@ function Header() {
                                 news
                             </Link>
                         </li>
-                        <li className='ony__header-item'>
-                            {/* <Link to={'/boardcon/notice'} state={{ name: 'notice' }} className='ony__header-link'> */}
+                        {/* <li className='ony__header-item'>
                             <Link to={'/boardcon/notice'} className='ony__header-link'>
                                 Notice
                             </Link>
-                        </li>
+                        </li> */}
                         <li className='ony__header-item'>
                             <Link to='/location' className='ony__header-link'>
                                 location
@@ -81,11 +80,11 @@ function Header() {
                         </li>
                     </ul>
                 </nav>
-                <a href='' className='log'>
+                {/* <a href='' className='log'>
                     <span>
                         <span className='count-title'>{logTime ? `로그인` : `로그아웃`}</span>
                     </span>
-                </a>
+                </a> */}
                 <div className='ony__header-menu'>
                     <button type='button' id='toggle' onClick={toggleMenu} className='ony__header-menu-btn' aria-label='menu'>
                         <span></span>
