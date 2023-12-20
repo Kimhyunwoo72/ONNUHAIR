@@ -9,7 +9,7 @@ function BoardView() {
     const currentURL = window.location.href;
     const redirectTo = currentURL.includes('/news') ? '/news' : currentURL.includes('/notice') ? '/notice' : '';
 
-    console.log(redirectTo);
+    // console.log(redirectTo);
 
     useEffect(() => {
         axios
@@ -24,7 +24,7 @@ function BoardView() {
             .catch(error => {
                 console.error('데이터를 불러오는 중 오류가 발생했습니다:', error);
             });
-    }, []);
+    }, [page]);
 
     return (
         <>
