@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ONNUHAIR/static/css/main.796a1dd5.css",
-    "main.js": "/ONNUHAIR/static/js/main.21015d2b.js",
+    "main.js": "/ONNUHAIR/static/js/main.cedffdee.js",
     "static/js/787.e7906d36.chunk.js": "/ONNUHAIR/static/js/787.e7906d36.chunk.js",
     "static/media/shop01.jpg": "/ONNUHAIR/static/media/shop01.be9bf8a00ab618db327d.jpg",
     "static/media/shop02.jpg": "/ONNUHAIR/static/media/shop02.4cfdc91d8836edaf66ba.jpg",
@@ -34,11 +34,11 @@
     "static/media/logo.png": "/ONNUHAIR/static/media/logo.00cf63d2509af5a6189b.png",
     "index.html": "/ONNUHAIR/index.html",
     "main.796a1dd5.css.map": "/ONNUHAIR/static/css/main.796a1dd5.css.map",
-    "main.21015d2b.js.map": "/ONNUHAIR/static/js/main.21015d2b.js.map",
+    "main.cedffdee.js.map": "/ONNUHAIR/static/js/main.cedffdee.js.map",
     "787.e7906d36.chunk.js.map": "/ONNUHAIR/static/js/787.e7906d36.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.796a1dd5.css",
-    "static/js/main.21015d2b.js"
+    "static/js/main.cedffdee.js"
   ]
 }
