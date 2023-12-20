@@ -34,7 +34,7 @@ function Notice(props) {
                     </div>
                 </div>
                 <ul className='ony-notice__list body'>
-                    {currentItems.map((data, index) => {
+                    {currentItems.map(data => {
                         return (
                             <li className='ony-notice__item'>
                                 {/* <Link to={'/boardview/' + data.id + ''} state={{ data: data }} className='ony-notice__link'> */}

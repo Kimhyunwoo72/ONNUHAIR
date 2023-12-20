@@ -1,5 +1,3 @@
-import React, { useEffect } from 'react';
-
 import img1 from '../../resource/image/slider01.jpg';
 import img2 from '../../resource/image/slider02.jpg';
 import img3 from '../../resource/image/slider03.jpg';
@@ -12,8 +10,6 @@ import img8 from '../../resource/image/slider08.jpg';
 
 function MainCollection() {
     // const swiperRef = useRef(null);
-
-    useEffect(() => {}, []);
 
     return (
         <div className='ony__collection'>

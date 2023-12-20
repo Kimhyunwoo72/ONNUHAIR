@@ -1,5 +1,5 @@
 /*eslint-disable*/
-import React, { useEffect, useState } from 'react';
+import React, { useEffect } from 'react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/all';
 import MainSlide from './MainSlide';
@@ -8,7 +8,6 @@ import MainNews from './MainNews';
 import { Link } from 'react-router-dom';
 
 function Main() {
-    const [data, setData] = useState(null);
     useEffect(() => {
         gsap.registerPlugin(ScrollTrigger);
         const kvWidth = document.querySelector('.ony__kv').clientWidth;
