@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { useLocation } from 'react-router-dom';
+// import { useLocation } from 'react-router-dom';
 import axios from 'axios';
 import News from './News';
 // import Notice from './Notice';
@@ -8,8 +8,8 @@ function BoardCon() {
     const [data, setData] = useState([]);
     const [activePage, setActivePage] = useState(1); // 현재 활성화된 페이지를 추적하는 상태값
 
-    const location = useLocation();
-    const path = location.pathname.split('/').pop();
+    // const location = useLocation();
+    // const path = location.pathname.split('/').pop();
 
     useEffect(() => {
         axios
