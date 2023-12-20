@@ -1,10 +1,10 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import LogoImage from '../../resource/image/logo.png'; // LogoImage 변수에 이미지 경로를 정의해주세요
 
 function Header() {
     const [menuOpen, setMenuOpen] = useState(false);
-    const [logTime, setLogTime] = useState(false);
+    // const [logTime, setLogTime] = useState(false);
 
     // useEffect(() => {
     //     const inactivityTime = 10000; // 10초

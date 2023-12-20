@@ -1,7 +1,6 @@
 /*eslint-disable*/
 
-import React, { useState } from 'react';
-import { Routes, Route, Link } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import Main from '../main/Main';
 import About from '../sub/About';
 import Shops from '../sub/Shops';
