@@ -26,9 +26,9 @@ function News(props) {
                     {currentItems.map((data, index) => {
                         return (
                             <li className={`ony-news__item ${data.show ? '' : 'close'}`} key={index}>
-                                <Link to={'/boardview'} state={{ data: data }} className='ony-news__link'>
+                                <Link to={'/boardview/news/' + data.id + ''} className='ony-news__link'>
                                     <div className='ony-news__img-wrap'>
-                                        <img src={data.image} className='ony-news__img' alt='' />
+                                        <img src={`${process.env.PUBLIC_URL}/${data.image}`} className='ony-news__img' alt='' />
                                     </div>
                                     <div className='ony-news__text-box'>
                                         <div className='ony-news__title'>{data.title}</div>
@@ -36,7 +36,7 @@ function News(props) {
                                         <div className='ony-news__store-name'>onnu</div>
                                     </div>
                                 </Link>
-                                <div class='close__bg'>
+                                <div className='close__bg'>
                                     <p>EVENT 종료</p>
                                 </div>
                             </li>

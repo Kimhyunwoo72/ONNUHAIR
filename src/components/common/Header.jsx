@@ -1,45 +1,52 @@
-/*eslint-disable*/
-
-import LogoImage from '../../resource/image/logo.png';
 import React, { useState, useEffect } from 'react';
-import { Routes, Route, Link, useNavigate, Outlet } from 'react-router-dom';
-import { useCookies } from 'react-cookie';
+import { Link } from 'react-router-dom';
+import LogoImage from '../../resource/image/logo.png'; // LogoImage 변수에 이미지 경로를 정의해주세요
 
 function Header() {
     const [menuOpen, setMenuOpen] = useState(false);
+    const [logTime, setLogTime] = useState(false);
+
+    useEffect(() => {
+        const inactivityTime = 10000; // 10초
+        let timer;
+
+        const resetTimer = () => {
+            clearTimeout(timer);
+            timer = setTimeout(logout, inactivityTime);
+        };
+
+        const logout = () => {
+            console.log('자동 로그아웃되었습니다.');
+            setLogTime(true);
+        };
+
+        const activityDetected = () => {
+            resetTimer();
+            localStorage.setItem('lastActivityTime', Date.now());
+        };
+
+        resetTimer();
+        localStorage.setItem('lastActivityTime', Date.now());
+
+        document.addEventListener('keypress', activityDetected);
+        document.addEventListener('scroll', activityDetected);
+
+        return () => {
+            document.removeEventListener('keypress', activityDetected);
+            document.removeEventListener('scroll', activityDetected);
+            clearTimeout(timer);
+        };
+    }, []);
 
     const toggleMenu = () => {
         setMenuOpen(!menuOpen);
     };
 
-    const sessionTime = 30;
-
-    const [logIn, logInToggle] = useState(true);
-    const [seconds, setSeconds] = useState(sessionTime);
-
-    useEffect(() => {
-        const timer = setInterval(() => {
-            if (seconds > 0) {
-                setSeconds(seconds - 1);
-            } else {
-                let countTitle = document.querySelector('.count-title');
-                countTitle.innerHTML = '로그인';
-                logInToggle(!logIn);
-            }
-        }, 1000);
-
-        window.addEventListener('mousemove', () => {
-            setSeconds(sessionTime);
-        });
-
-        return () => clearInterval(timer);
-    }, [seconds]);
-
     return (
         <>
             <header className='ony__header'>
                 <h1 className='ony__header-logo'>
-                    <Link to='/'>
+                    <Link to='/ONNUHAIR'>
                         <img src={LogoImage} className='App-logo' alt='React' />
                     </Link>
                 </h1>
@@ -76,8 +83,7 @@ function Header() {
                 </nav>
                 <a href='' className='log'>
                     <span>
-                        <span className='count-title'>로그아웃</span>
-                        {logIn && <span>{seconds}초</span>}
+                        <span className='count-title'>{logTime ? `로그인` : `로그아웃`}</span>
                     </span>
                 </a>
                 <div className='ony__header-menu'>

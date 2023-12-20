@@ -13,7 +13,7 @@ function BoardCon() {
 
     useEffect(() => {
         axios
-            .get('/json/boardNews.json')
+            .get(`${process.env.PUBLIC_URL}/json/boardNews.json`)
             .then(response => {
                 const newsData = response.data.newsData;
 

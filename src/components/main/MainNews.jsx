@@ -32,7 +32,7 @@ function MainNews() {
                                     <span className='ony__news-text ony__news-date'>{data.date}</span>
                                     <span className='ony__news-text ony__news-sub-title'>{data.title}</span>
                                 </span>
-                                <span class='ony__news-text ony__news-desc'>{data.desc}</span>
+                                <span className='ony__news-text ony__news-desc'>{data.desc}</span>
                             </Link>
                         </li>
                     );

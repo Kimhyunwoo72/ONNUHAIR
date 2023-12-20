@@ -16,7 +16,8 @@ function Url() {
             <Route path='/about' element={<About />} />
             <Route path='/shops' element={<Shops />} />
             <Route path='/boardcon' element={<BoardCon />} />
-            <Route path='/boardview' element={<BoardView />} />
+            <Route path='/boardview/news/:page' element={<BoardView />} />
+            <Route path='/boardview/notice/:page' element={<BoardView />} />
             <Route path='/boardcon/news' element={<BoardCon />} />
             <Route path='/boardcon/notice' element={<BoardCon />} />
             <Route path='/location' element={<Location />} />

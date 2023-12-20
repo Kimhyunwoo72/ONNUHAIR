@@ -25,7 +25,6 @@ function Paging(props) {
             onChange={handlePageChange}
             itemClass='page-item'
             linkClass='page-link'
-            hideDisabled='false'
             prevPageText={pagingPrev}
             firstPageText={pagingFirst}
             nextPageText={pagingNext}

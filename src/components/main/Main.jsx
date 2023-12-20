@@ -114,10 +114,10 @@ function Main() {
                 </div>
             </div>
 
-            <div class='ony__shop'>
-                <div class='ony__shop-img ony__shop-prev'></div>
-                <div class='ony__shop-img ony__shop-main'></div>
-                <div class='ony__shop-img ony__shop-next'>
+            <div className='ony__shop'>
+                <div className='ony__shop-img ony__shop-prev'></div>
+                <div className='ony__shop-img ony__shop-main'></div>
+                <div className='ony__shop-img ony__shop-next'>
                     <span></span>
                 </div>
             </div>
